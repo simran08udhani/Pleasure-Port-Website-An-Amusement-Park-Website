@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log-in</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="Images/logo.jpg" type="image/x-icon" />
+    <style>
+        body {
+            background-color: rgb(243, 214, 219);
+        }
+
+        .main {
+            background-color: white;
+            width: 350px;
+            height: 400px;
+            border: 1px solid whitesmoke;
+            border-radius: 10px;
+            margin: 100px 400px 0px 480px;
+            padding-top: 30px;
+
+        }
+        .inside{
+            margin-left: 35px;
+        }
+       span{
+        cursor: pointer;
+        position: relative;
+        left:  95px;
+        top: 118px;
+       }
+        .sbutton{
+           margin-left: 48px;
+           background-color: rgb(174, 247, 174);
+           border-radius: 13px;
+           border: none;
+           cursor:pointer;
+        }
+        .sbutton:hover{
+            opacity: 50%;
+        }
+        .link1{
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            font-size: small;
+            text-decoration: none;
+        }
+        .link1:hover{
+            opacity: 50%;
+        }
+        .linkdivision{
+            margin-top: 30px;
+        }
+       @media screen and (max-width: 912px) {
+        .main{
+            margin:auto
+        }
+       }
+       @media screen and (max-height: 562px) {
+        .main{
+            margin:auto
+        }
+       }
+       
+
+
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+        <h1 style="font-family:'Times New Roman', Times, serif;" ;>
+            <center>Log in</center>
+        </h1>
+        <center>
+            <form >
+                <table   cellspacing="1" cellpadding="25" width="50%" class="inside"  >
+                    <tr>
+                        <td>
+                            <input type="text" placeholder="Enter Username" name="stdname" id="Name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="password" placeholder="Enter Password" name="passwrd" id="Password">
+                        </td>
+                        
+                            <span >
+                                <i class="fa fa-eye" aria-hidden="true" id="eye" onclick="toggle()"></i>
+                            </span>
+                        
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" value="Submit" class="sbutton" onclick="mess()">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <a href="www.xyz.com" target="_self" class="link1">Forgot password</a>
+            <div class="linkdivision">
+            <a href="www.xyz.com" target="_self" class="link1">Don't have an account? Register youself</a>
+            </div>
+        
+
+        </center>
+
+    </div>
+    <script>
+        function mess()
+        {
+            alert("Logged In.");
+        }
+        var state = false;
+        function toggle(){
+            if(state){
+                document.getElementById(
+                    "Password").
+                    setAttribute("type","Password");
+                    document.getElementById("eye").style.color='#7a797e';
+                    state= false;
+            }
+            else{
+                document.getElementById(
+                    "Password").
+                    setAttribute("type","text");
+                    document.getElementById("eye").style.color='#5887ef';
+                    state=true;
+                
+            }
+                
+
+            }
+        
+    </script>
+
+</body>
+
+</html>
