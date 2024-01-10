@@ -28,7 +28,7 @@ This is the codebase for the Pleasure Port website, a platform dedicated to deli
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/pleasure-port-website.git
+   git clone [https://github.com/your-username/pleasure-port-website](https://github.com/simran08udhani/Pleasure-Port-Website-An-Amusement-Park-Website).git
    ```
    
 2. Open the HTML files in your preferred web browser.
