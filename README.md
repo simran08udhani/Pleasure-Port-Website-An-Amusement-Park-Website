@@ -40,6 +40,8 @@ Simply open the HTML files in a web browser to view the Pleasure Port website.
 ## Contributing
 Feel free to contribute by submitting bug reports, feature requests, or pull requests.
 
-
 ## Acknowledgments
 Special thanks to **YouTube** for the video content used on the website.
+
+## License
+This project is licensed under the MIT License.
