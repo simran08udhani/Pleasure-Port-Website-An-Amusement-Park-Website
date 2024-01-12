@@ -7,20 +7,20 @@ This is the codebase for the Pleasure Port website, a platform dedicated to deli
 ## Project Structure
 
 - **CSS**: This directory contains the CSS stylesheets used for styling the website.
-  - [index.css](CSS/index.css): Styles for the main index page.
-  - [contact.css](CSS/contact.css): Styles for the Contact Us page.
+  - [index.css](project/CSS/index.css): Styles for the main index page.
+  - [contact.css](project/CSS/contact.css): Styles for the Contact Us page.
   <!-- Add more CSS files if you have additional stylesheets -->
 
 - **Images**: This directory contains images used in the website.
   <!-- Add more image files as needed -->
 
 - **HTML Pages**: This directory contains HTML files for different pages of the website.
-  - [index.html](index.html): Main landing page.
-  - [About-us.html](About-us.html): About Us page.
-  - [contact-us.html](contact-us.html): Contact Us page.
-  - [packages.html](packages.html): Packages page.
-  - [register.html](register.html): Registration page.
-  - [login.html](login.html): Login page.
+  - [index.html](project/index.html): Main landing page.
+  - [About-us.html](project/About-us.html): About Us page.
+  - [contact-us.html](project/contact-us.html): Contact Us page.
+  - [packages.html](project/packages.html): Packages page.
+  - [register.html](project/register.html): Registration page.
+  - [login.html](project/login.html): Login page.
   <!-- Add more HTML files for additional pages -->
 
 ## Getting Started
