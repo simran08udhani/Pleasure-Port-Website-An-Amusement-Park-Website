@@ -44,5 +44,6 @@ Feel free to contribute by submitting bug reports, feature requests, or pull req
 Special thanks to **YouTube** for the video content used on the website.
 
 ## License
-The Pleasure Port Website is licensed under the MIT License.
+The Pleasure Port Website is licensed under the [MIT License](LICENSE).
+
 
